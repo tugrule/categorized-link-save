@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <section class="header">
+            <img id="go-back" src="icons/go-back.png" alt="GO BACK" onclick="window.location.href='index.html'">
+            <input type="text" id="url-textbox" placeholder="Enter URL">
+            <button id="add-url-btn" onclick="addURL()">+</button>
+        </section>
+        <div class="add-del-btns">
+            <button id="delete-all-btn" onclick="deleteAll()">DELETE ALL</button>
+        </div>
+        <section id="url-entries">
+        </section>
+    </body>
+</html>

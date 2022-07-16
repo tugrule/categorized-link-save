@@ -1,0 +1,95 @@
+body {
+    font-family: Verdana, Arial;
+    background-color: gray;
+    min-width: 500px;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    border: 1px solid black 2px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.header { 
+    display: grid; 
+    grid-template-columns: 50px 1fr 40px;
+    margin: 10px;
+}
+
+.user-input {
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    margin: 10px;
+}
+
+.add-del-btns {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+#add-category,
+#add-url-btn {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-size: 28px;
+    font-weight: bold;
+    border-style: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+#delete-all-btn {
+    height: 40px;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+}
+
+#delete-all-btn {
+    background-color: rgb(194, 23, 23);
+}
+
+#add-category:hover,
+#delete-btn:hover,
+#add-url-btn,
+#delete-all-btn
+{
+    cursor: pointer;
+}
+
+.category,
+.url-entry {
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    margin: 10px;
+}
+
+#category-element,
+#url {
+    color: white;
+    background-color: darkgray;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#category-element {
+    text-decoration: none;
+}
+
+#delete-btn {
+    background-color: rgb(194, 23, 23);
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 2px;
+} 
+
+#go-back {
+    height: 40px;
+    margin: auto;
+}
